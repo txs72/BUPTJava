@@ -2,7 +2,7 @@ import java.math.*;
 
 public class LargeFactorial {
   public static void main(String[] args) {
-    System.out.println("50! is \n" + factorial(50));
+    System.out.println("5000! is \n" + factorial(5000));
   }
 
   public static BigInteger factorial(long n) {
