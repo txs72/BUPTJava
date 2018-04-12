@@ -36,7 +36,7 @@ public class AccountWithoutSync {
     }
 	// Myclass.xxx() class lock
     public void deposit(int amount) {
-		synchronized(this){ // object lock
+//		synchronized(this){ // object lock
 			int newBalance = balance + amount;
 
       // This delay is deliberately added to magnify the
@@ -48,7 +48,7 @@ public class AccountWithoutSync {
       // }
 
 		  balance = newBalance;
-	  }
+//	  }
     }
   }
 }

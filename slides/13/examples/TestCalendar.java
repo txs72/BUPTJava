@@ -26,7 +26,7 @@ public class TestCalendar {
     System.out.println("AM_PM: " + calendar.get(Calendar.AM_PM));
     
     // Construct a calendar for September 11, 2001
-    Calendar calendar1 = new GregorianCalendar(2001, 8, 11);
+    Calendar calendar1 = new GregorianCalendar(2017, 4, 18);
     String[] dayNameOfWeek = {"Sunday", "Monday", "Tuesday", "Wednesday", 
         "Thursday", "Friday", "Saturday"};
     System.out.println("September 11, 2001 is a " + 
